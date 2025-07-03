@@ -7,9 +7,9 @@ https://fishros.com/
 
 
 ### 坐标变换 
-https://fishros.com/d2lros2/#/humble/chapt6/get_started/1.%E7%A9%BA%E9%97%B4%E5%9D%90%E6%A0%87%E6%8F%8F%E8%BF%B0
+https://fishros.com/d2lros2/#/humble/chapt6/get_started/1.%E7%A9%BA%E9%97%B4%E5%9D%90%E6%A0%87%E6%8F%8F%E8%BF%B0  
 平移旋转复合变换
- $\boldsymbol{_{C}^{A}P = {_{B}^{A}R} \cdot {_{C}^{B}P} + {_{B}^{A}P}}$ 
+ $$\boldsymbol{_{C}^{A}P = {_{B}^{A}R} \cdot {_{C}^{B}P} + {_{B}^{A}P}}$$
 
 
 ### 绕某一轴旋转$\boldsymbol{\theta}$角的旋转矩阵
@@ -18,33 +18,33 @@ https://fishros.com/d2lros2/#/humble/chapt6/get_started/1.%E7%A9%BA%E9%97%B4%E5%
  
 绕$\boldsymbol{x}$轴旋转$\boldsymbol{\theta}$后姿态矩阵
  
-$
+$$
 R(x,\theta) = \begin{bmatrix} 
 1 & 0 & 0 \\ 
 0 & \cos\theta & -\sin\theta \\ 
 0 & \sin\theta & \cos\theta 
 \end{bmatrix}
-$
+$$
  
 绕$\boldsymbol{y}$轴旋转$\boldsymbol{\theta}$后姿态矩阵
  
-$
+$$
 R(y,\theta) = \begin{bmatrix} 
 \cos\theta & 0 & \sin\theta \\ 
 0 & 1 & 0 \\ 
 -\sin\theta & 0 & \cos\theta 
 \end{bmatrix}
-$
+$$
  
 绕$\boldsymbol{z}$轴旋转$\boldsymbol{\theta}$后姿态矩阵
  
-$
+$$
 R(z,\theta) = \begin{bmatrix} 
 \cos\theta & -\sin\theta & 0 \\ 
 \sin\theta & \cos\theta & 0 \\ 
 0 & 0 & 1 
 \end{bmatrix}
-$
+$$
  
 （可用于坐标系旋转、位姿变换等场景，代入$\theta$值即可计算具体旋转矩阵 ）
 
