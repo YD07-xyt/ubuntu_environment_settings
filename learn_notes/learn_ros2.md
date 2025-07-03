@@ -16,7 +16,11 @@ https://fishros.com/d2lros2/#/humble/chapt6/get_started/1.%E7%A9%BA%E9%97%B4%E5%
  
 新的坐标系 绕原坐标系 某一坐标轴旋转任意角度时，对应旋转矩阵如下：
  
-绕$\boldsymbol{x}$轴旋转$\boldsymbol{\theta}$后姿态矩阵
+绕
+$\boldsymbol{x}$
+轴旋转
+$\boldsymbol{\theta}$
+后姿态矩阵
  
 $$
 R(x,\theta) = \begin{bmatrix} 
@@ -26,7 +30,11 @@ R(x,\theta) = \begin{bmatrix}
 \end{bmatrix}
 $$
  
-绕$\boldsymbol{y}$轴旋转$\boldsymbol{\theta}$后姿态矩阵
+绕
+$\boldsymbol{y}$
+轴旋转
+$\boldsymbol{\theta}$
+后姿态矩阵
  
 $$
 R(y,\theta) = \begin{bmatrix} 
@@ -36,7 +44,11 @@ R(y,\theta) = \begin{bmatrix}
 \end{bmatrix}
 $$
  
-绕$\boldsymbol{z}$轴旋转$\boldsymbol{\theta}$后姿态矩阵
+绕
+$\boldsymbol{z}$
+轴旋转
+$\boldsymbol{\theta}$
+后姿态矩阵
  
 $$
 R(z,\theta) = \begin{bmatrix} 
@@ -46,7 +58,9 @@ R(z,\theta) = \begin{bmatrix}
 \end{bmatrix}
 $$
  
-（可用于坐标系旋转、位姿变换等场景，代入$\theta$值即可计算具体旋转矩阵 ）
+（可用于坐标系旋转、位姿变换等场景，代入
+$\theta$
+值即可计算具体旋转矩阵 ）
 
 
 ### 四元数
