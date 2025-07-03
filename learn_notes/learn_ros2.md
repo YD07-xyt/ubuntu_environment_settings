@@ -120,18 +120,19 @@ $3 \times 3$
 **旋转矩阵**  
 
 
-$$ R = \begin{bmatrix} r_{11} & r_{12} & r_{13} \\ r_{21} & r_{22} & r_{23} \\ r_{31} & r_{32} & r_{33} \end{bmatrix} $$  
+$$R = \begin{bmatrix} r_{11} & r_{12} & r_{13} \\ r_{21} & r_{22} & r_{23} \\ r_{31} & r_{32} & r_{33} \end{bmatrix}$$  
 （旋转矩阵）
 
 **平移矩阵**  
-$$ P = \begin{bmatrix} x \\ y \\ z \end{bmatrix} $$  
+$$P = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$$  
  （平移矩阵）
 
 **合并成齐次变换矩阵** 
  
- $$ T = \begin{bmatrix} r_{11} & r_{12} & r_{13} & x \\ r_{21} & r_{22} & r_{23} & y \\ r_{31} & r_{32} & r_{33} & z \\ 0 & 0 & 0 & 1 \end{bmatrix} $$   
+ $$T = \begin{bmatrix} r_{11} & r_{12} & r_{13} & x \\ r_{21} & r_{22} & r_{23} & y \\ r_{31} & r_{32} & r_{33} & z \\ 0 & 0 & 0 & 1 \end{bmatrix}$$   
 （齐次矩阵）
 
 矩阵是支持分块运算的，我们可以将上面的矩阵进行分块
-$$ T = \begin{bmatrix} R & P \\ 0 & 1 \end{bmatrix} $$    
+$$
+T = \begin{bmatrix} R & P \\ 0 & 1 \end{bmatrix} $$    
 （齐次矩阵）
