@@ -8,8 +8,8 @@ https://fishros.com/
 
 ### 坐标变换 
 https://fishros.com/d2lros2/#/humble/chapt6/get_started/1.%E7%A9%BA%E9%97%B4%E5%9D%90%E6%A0%87%E6%8F%8F%E8%BF%B0  
-平移旋转复合变换
- $$\boldsymbol{_{C}^{A}P = {_{B}^{A}R} \cdot {_{C}^{B}P} + {_{B}^{A}P}}$$
+平移旋转复合变换  
+$$\boldsymbol{_{C}^{A}P = {_{B}^{A}R} \cdot {_{C}^{B}P} + {_{B}^{A}P}}$$
 
 
 ### 绕某一轴旋转$\boldsymbol{\theta}$角的旋转矩阵
