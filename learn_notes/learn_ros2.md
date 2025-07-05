@@ -8,8 +8,10 @@ https://fishros.com/
 
 ### 坐标变换 
 https://fishros.com/d2lros2/#/humble/chapt6/get_started/1.%E7%A9%BA%E9%97%B4%E5%9D%90%E6%A0%87%E6%8F%8F%E8%BF%B0  
-平移旋转复合变换  
-$$\boldsymbol{_{C}^{A}P = {_{B}^{A}R} \cdot {_{C}^{B}P} + {_{B}^{A}P}}$$
+平移旋转复合变换    
+$$ 
+\boldsymbol{_{C}^{A}P = {_{B}^{A}R} \cdot {_{C}^{B}P} + {_{B}^{A}P}} 
+$$
 
 
 ### 绕某一轴旋转$\boldsymbol{\theta}$角的旋转矩阵
@@ -59,7 +61,7 @@ R(z,\theta) = \begin{bmatrix}
 $$
  
 （可用于坐标系旋转、位姿变换等场景，代入
-$\theta$
+$ \theta $
 值即可计算具体旋转矩阵 ）
 
 
@@ -76,11 +78,11 @@ https://qiita.com/HMMNRST/items/0a4ab86ed053c770ff6a
 如果我们想让 2D 空间中任意一个向量 v 旋转 θ 度，那么我们就可以使用
 这个矩阵对 v 进行变换：
 
-**Theorem 1: 2D 旋转公式（矩阵型）**:  
+**Theorem 1: 2D 旋转公式（矩阵型）**:    
 $$R(\theta) = \begin{bmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{bmatrix}$$  
 $$v' = R(\theta)v$$  
 
-**Theorem 2: 2D 旋转公式（复数积型）**
+**Theorem 2: 2D 旋转公式（复数积型）**  
  $$ v' = zv   
     = (\cos(\theta) + i\sin(\theta))v $$ 
 
